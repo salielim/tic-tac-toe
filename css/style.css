@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans:300');
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 55px;
+  color: #78B3CF;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 133px;
+  height: 30px;
+  background: linear-gradient(#78B3CF, #77a1d3);
+  border-radius: 5px;
+  border: none;
+  margin: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.optionbox {
+  margin: auto auto 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#statusbox {
+  width: 405px;
+  height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #77a1d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.box {
+  width: 133px;
+  height: 130px;
+  border: 1px solid rgba(255,255,255,0.3);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  padding: 12px 0px 0px 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.box:hover {
+  background: #6c9ed1;
+}
+
+.gamebox {
+  width: 405px;
+  height: 432px;
+  border-radius: 5px;
+  border: solid grey;
+  background: linear-gradient(#77a1d3,#78B3CF);
+  font-family: 'Work Sans', sans-serif;
+  font-size: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
